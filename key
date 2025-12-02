@@ -1,0 +1,122 @@
+1). To link the css file
+
+<link rel="spreadsheet" href="filename">
+
+
+2). To link the js file
+
+<script src="filename"></script>
+
+3). To add the links in the site (Anchor tag)
+
+    <a href="link address">Name</a>
+    (It will open the link in the same page)
+
+    (To open the page in the anothetr tab , we have to add <_blank>)
+
+    <a target="_blank" href="link address">Name</a>
+
+
+4). To add image in the site
+
+    <img src="saved file name(included in the file manager)" alt="Image name(According to us)">
+
+    (we can also add height and width to it)
+
+    <img width="in px" height="in px" src="saved file name(included in the file manager)"
+        alt="Image name(According to us)">
+
+5). Break tag
+
+
+    to leave the space after the image and start with a new line
+    <br>
+
+
+6). To make a table using table tag and using caption tag
+
+    <table>
+
+        <caption>Tble name</caption>
+
+        <tr>
+            <th>Name</th>
+            <th>Anything</th>
+            <th>Everything</th>
+        </tr>
+
+
+        <tr>
+            <td>Any</td>
+            <td>Any</td>
+            <td>Any</td>
+        </tr>
+
+    </table>
+
+    (tr ---> table row)
+    (th ---> table heading)
+    (td ---> table data)
+
+    It has two attributes [1). Colspan , 2). Rowspan]
+
+    <td colspan="2">Any</td>
+    (Any will take 2 places in the column of the table)
+
+    <td rowspan="2">Any</td>
+    (Any will take 2 places in the row of the table)
+
+
+
+7). Lists
+
+    1). unordered Lists
+    (we can add the shapes to the list bullets)
+    <ul type="square,circle,etc">
+        <li>asm</li>
+        <li>msa</li>
+        <li>sam</li>
+    </ul>
+
+    2). Ordered Lists
+
+    <ol type="I,i,1 (by default), a, A">
+        <li>asm</li>
+        <li>msa</li>
+        <li>sam</li>
+    </ol>
+
+    indexing
+    I --> upper case roman numbers
+    i --> lower case roman numbers
+    a --> lower case alphabets
+    A --> upper case alphabets
+
+
+    3). Detailed list
+
+
+
+8). meta:desc
+    (is used to give the brief description about the web site generally which appears below the site name in the google)
+
+
+9). Forms
+
+    <form action=""></form>
+
+
+    <form action="/submit-url" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password">
+
+  <input type="submit" value="Submit">
+</form>
+
+
+// css
+
+can be added in html using style tag
