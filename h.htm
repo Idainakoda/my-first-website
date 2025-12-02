@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="1st.css">
+  <script src="1st.js"></script>
+  <title>1st</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    #bg-video {
+      backface-visibility: hidden;
+    }
+  </style>
+</head>
+
+<div id="imgModal" class="modal" style="display:none;">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+  <div id="modalText"></div>
+</div>
+
+
+<body>
+  <header>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#services" class="act">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="freepik__upload__5579.png" alt="">
+    </div>
+    <div class="home-content">
+      <h1> Top 20+ Action manhwas with 100+ chapters "PART-1" </h1>
+      <h6 class="typing-text">Here you can find the top 20+ community favourite manhwas including Action, a cool
+        protagonist,
+        also has 100+ chapters.</h6>
+    </div>
+  </section>
+  <div class="hover-info-box">
+    💡 Tap the image to get information related to the manhwa!
+  </div>
+  
+  <section class="services" id="services">
+    <h3>The Top 23 popular Manhwas With Action </h3>
+    <!-- <br><br><br><br><br><br><br><br><br><br><br> -->
+
+
+    <ol class="card-grid">
+      <li>
+        <div class="card">
+          <p class="manhwa-title">1. Solo Leveling</p>
+          <img src="solo.jpg" alt="Solo Leveling"
+            onclick="openModal('solo.jpg', 'Solo Leveling: In a world where hunters fight monsters from mysterious gates, Sung Jin-Woo, the weakest E-rank hunter, struggles to survive. After a near-death encounter in a dangerous dungeon, he gains a unique ability: a system that allows him to grow stronger through quests and leveling up—like in a video game. As he trains and rises in power, Jin-Woo becomes an incredibly overpowered hunter, uncovering dark secrets behind the gates, monsters, and a looming threat that could end humanity. \n\n Overpowered Hunter, Leveling System\n Status: completed \n Chapters: 200')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">2. Omniscient Reader's Viewpoint</p>
+          <img src="images.jpg" alt="Omniscient Reader's Viewpoint"
+            onclick="openModal('images.jpg', 'Omniscient Reader\'s Viewpoint: Kim Dokja, the only one who finished the novel, suddenly finds the story become reality.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">3. The Beginning After the End</p>
+          <img src="tbate.jpg" alt="The Beginning After the End"
+            onclick="openModal('tbate.jpg', 'The Beginning After the End: King Grey reincarnates into a new world for a second chance.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">4. SSS-class Revival Hunter</p>
+          <img src="sss.jpg" alt="SSS-class Revival Hunter"
+            onclick="openModal('sss.jpg', 'SSS-class Revival Hunter: A hunter who revives after death to change his fate.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">5. The Star Embracing Swordsmaster</p>
+          <img src="star-embracing-swordmaster-and-infinite-mage-these-two-are-v0-7i42xmj8ca7c1.jpg"
+            alt="The Star Embracing Swordsmaster"
+            onclick="openModal('star-embracing-swordmaster-and-infinite-mage-these-two-are-v0-7i42xmj8ca7c1.jpg', 'The Star Embracing Swordsmaster: A swordsman reaches for the stars with his blade.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">6. After Ten Millennia in Hell</p>
+          <img src="images (1).jpg" alt="After Ten Millennia in Hell"
+            onclick="openModal('images (1).jpg', 'After Ten Millennia in Hell: Surviving hell for ten millennia changes everything.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">7. The Return of Disaster Class Hero</p>
+          <img src="retutn of dis.jpg" alt="The Return of Disaster Class Hero"
+            onclick="openModal('retutn of dis.jpg', 'The Return of Disaster Class Hero: The hero returns to face new disasters.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">8. Mercenary Enrollment</p>
+          <img src="merce.jpg" alt="Mercenary Enrollment"
+            onclick="openModal('merce.jpg', 'Mercenary Enrollment: A young mercenary enrolls in high school to protect his family.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">9. The Constellations Are My Disciples</p>
+          <img src="ZgsiMuFp_vnlEwY193Rjdd-sZbvlyP5Q8ocGjSiiq_7Bxc1mUsuhVsixNKZYB4L8b_IiXKuaUfS6mRfphtFl9Q.webp"
+            alt="The Constellations Are My Disciples"
+            onclick="openModal('ZgsiMuFp_vnlEwY193Rjdd-sZbvlyP5Q8ocGjSiiq_7Bxc1mUsuhVsixNKZYB4L8b_IiXKuaUfS6mRfphtFl9Q.webp', 'The Constellations Are My Disciples: The master returns to teach his disciples among the stars.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">10. The Novel's Extra</p>
+          <img src="the-novels-extra-manhwa-similiar-to-this-i-dont-like-v0-vchnp110vvsc1.webp" alt="The Novel's Extra"
+            onclick="openModal('the-novels-extra-manhwa-similiar-to-this-i-dont-like-v0-vchnp110vvsc1.webp', 'The Novel\'s Extra: The extra character becomes the protagonist of his own story.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">11. Mythic Item Obtained</p>
+          <img src="images (2).jpg" alt="Mythic Item Obtained"
+            onclick="openModal('images (2).jpg', 'Mythic Item Obtained: A rare item changes the fate of the protagonist.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">12. Eleceed</p>
+          <img src="eleceed.jpg" alt="Eleceed"
+            onclick="openModal('eleceed.jpg', 'Eleceed: A boy and his cat discover a world of awakened powers.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">13. The Martial God Who Regressed Back To Level 2</p>
+          <img src="martial god.jpg" alt="The Martial God Who Regressed Back To Level 2"
+            onclick="openModal('martial god.jpg', 'The Martial God Who Regressed Back To Level 2: The martial god starts over to reach the top again.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">14. Second Life Ranker</p>
+          <img src="second.jpg" alt="Second Life Ranker"
+            onclick="openModal('second.jpg', 'Second Life Ranker: Yeon-woo climbs the tower to avenge his brother.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">15. The Knight King who Returned With A God</p>
+          <img src="the-knight-king-who-returned-with-a-god-v0-i8prw4u5p62b1.webp"
+            alt="The Knight King who Returned With A God"
+            onclick="openModal('the-knight-king-who-returned-with-a-god-v0-i8prw4u5p62b1.webp', 'The Knight King who Returned With A God: The knight king returns with divine power.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">16. Level up with the God</p>
+          <img src="level up.jpg" alt="Level up with the God"
+            onclick="openModal('level up.jpg', 'Level up with the God: Leveling up with the help of a god.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">17. Doom Breaker</p>
+          <img src="doom.jpg" alt="Doom Breaker"
+            onclick="openModal('doom.jpg', 'Doom Breaker: The protagonist breaks the cycle of doom.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">18. Surviving The Game As A Barbarian</p>
+          <img src="surviving-the-game-as-a-barbarian-what-happens-after-v0-77rw023e72te1.webp"
+            alt="Surviving The Game As A Barbarian"
+            onclick="openModal('surviving-the-game-as-a-barbarian-what-happens-after-v0-77rw023e72te1.webp', 'Surviving The Game As A Barbarian: Survive and thrive as a barbarian in a game world.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">19. Boundless Ascension</p>
+          <img src="ascension.jpg" alt="Boundless Ascension"
+            onclick="openModal('ascension.jpg', 'Boundless Ascension: Ascend without limits.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">20. A Returner Magic Should Be Special</p>
+          <img src="returner.jpg" alt="A Returner Magic Should Be Special"
+            onclick="openModal('returner.jpg', 'A Returner Magic Should Be Special: A returner uses magic to change the world.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">21. The Player Who Can't Level Up</p>
+          <img src="cant level.jpg" alt="The Player Who Can't Level Up"
+            onclick="openModal('cant level.jpg', 'The Player Who Can\'t Level Up: The player struggles to level up but finds his own path.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">22. Reality Quest</p>
+          <img src="reality-quest-how-many-of-you-are-following-this-v0-9fautr39rnqe1.webp" alt="Reality Quest"
+            onclick="openModal('reality-quest-how-many-of-you-are-following-this-v0-9fautr39rnqe1.webp', 'Reality Quest: A quest that blurs the line between reality and game.')">
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <p class="manhwa-title">23. The Archmage's Restaurant</p>
+          <img src="rest.jpg" alt="The Archmage's Restaurant"
+            onclick="openModal('rest.jpg', 'The Archmage\'s Restaurant: The archmage opens a magical restaurant.')">
+        </div>
+      </li>
+    </ol>
+
+  </section>
+
+  <section class="contact" id="contact">
+    <video autoplay muted loop id="bg-video">
+      <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="overlay"></div> 
+
+    <div class="contact-content">
+      <h1>Contact</h1>
+      <h2>You can tell me what all changes can I do to make my site better.</h2>
+
+      <div class="social-icons">
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <a href="#" class="btn">⬆</a>
+    </div>
+  </section>
+
+</body>
+
+</html>
